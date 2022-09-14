@@ -1,0 +1,147 @@
+// btn .fa.fa-3x {
+//     font-size: 3em;
+// }
+// .btn .fa.fa-2x {
+//     font-size: 2em;
+// }.
+// .form-elegant .font-small {
+//     font-size: 0.8rem;
+// }
+// .form-elegant .z-depth-1a {
+//     -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+//     box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+// }
+// .form-elegant .z-depth-1-half,
+// .form-elegant .btn:hover {
+//     -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+//     box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+// }
+.log_btn {
+    color: white;
+    background-color: #2c3344;
+    width: 125px;
+    border-radius: 18px;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.log_btn:hover {
+    color: #2c3344;
+    // background-color: rgb(129, 136, 231);
+    width: 125px;
+    border-radius: 18px;
+    -webkit-transform: scale(1.3);
+    background: wheat;
+}
+
+// .container {
+//     margin: 3rem 1rem;
+// // }
+.card-body {
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.card-body a {
+    color: #0c7f90;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+// .imgtop {
+//     height: auto;
+//     width: auto;
+// }
+.cmd {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.cmd:hover {
+    box-shadow: 0 32px 50px 0 rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.3);
+}
+
+.card-title {
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.slide {
+    // margin-left: 1cm;
+    // margin-right: 1cm;
+    // margin-top: 1em;
+    // width: 33cm;
+    height: auto;
+}
+
+.middle-content {
+    background-color: #2c3344;
+}
+
+.IMG {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: wheat;
+    font-weight: bold;
+    // border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+.logbox {
+    position: absolute;
+    top: 10%;
+    right: 60%;
+}
+
+////footer.////
+.text-small {
+    font-size: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    width: 100px;
+    -webkit-transform: scale(1.3);
+    background: white;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background: #212529;
+}

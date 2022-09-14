@@ -1,0 +1,103 @@
+<!-- <div id="modal-content-wrapper">
+    <header id="modal-header">
+        <h1 id="modal-title">Are you sure you want to logout?</h1>
+    </header>
+    <section id="modal-body">
+        <input placeholder="email">
+    </section> -->
+<!-- <footer id="modal-footer">
+        <button mat-raised-button id="modal-action-button" (click)="actionFunction()">Logout</button>
+        <button mat-raised-button id="modal-cancel-button" (click)="closeModal()">Go back</button>
+    </footer> -->
+<!-- </div> ////////////////////////////////////////////////////////////////////////-->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h6>Please Enter email & password!!</h6>
+                </div>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <a routerLink="/registration">New User? click to signup!!</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div class="container">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3 style="size: 4%;">Sign In</h3>
+                <!-- <div class="d-flex justify-content-end social_icon">
+                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-google-plus-square"></i></span>
+                    <span><i class="fab fa-twitter-square"></i></span>
+                </div> -->
+            </div>
+            <div class="card-body">
+                <form>
+                <!-- <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">    -->
+                     <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <select name="cars" id="cars" class="form-control" placeholder="Select"  formControlName="login_value">
+                            <option >Lawyer</option>
+                            <option >Client</option>
+                          </select>
+                        <!-- <input type="text" class="form-control" placeholder="username"> -->
+
+                    </div>
+                    <br>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="username" placeholder="username">
+
+                    </div>
+                    <br>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" class="form-control" formControlName="password" placeholder="password">
+                    </div>
+                    <br>
+                    <div class="row align-items-center remember">
+                        <input type="checkbox">Remember Me
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="submit" value="Login" (onclick)="OpenDesktop()" class="btn float-right login_btn">
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-center links">
+                    Don't have an account?<a (click)="openRegModal()">Sign Up</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

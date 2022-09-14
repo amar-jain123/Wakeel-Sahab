@@ -1,0 +1,14 @@
+    <mat-drawer-container>
+        <mat-drawer mode="over" [opened]="sideBarOpen">
+            <app-sidenav></app-sidenav> 
+        </mat-drawer>
+        <mat-drawer-content>
+            <!-- <app-login></app-login> -->
+            <app-header (toggleSidebarForMe)="sidebarToggler()"></app-header>
+            <!-- <router-outlet></router-outlet> -->
+
+            <app-dashboard></app-dashboard>
+            <app-footer></app-footer>
+        </mat-drawer-content>
+
+    </mat-drawer-container>

@@ -1,0 +1,84 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between">
+        <div fxHide.gt-xs>
+            <button mat-icon-button (click)="toggleSidebar()"><mat-icon>menu</mat-icon></button>
+        </div>
+
+        <!-- <div class="col-sm-2  col-xs-2">
+                <img src="../../assets/taraju.png" class="Cube ">
+            </div> -->
+        <div class="col-sm-2 col-xs-2">
+            <h1 class="adv" style="color: aliceblue;">Wakeel Sahab</h1>
+        </div>
+        <div class="col">
+            <img src="../../assets/taraju.png" class="Cube ">
+        </div>
+        <div class="col-sm-6 col-xs-6">
+            <div class="input-box"> <input type="text" class="form-control" placeholder="Search.."><i class="fa fa-search"></i></div>
+        </div>
+        <!-- <div class="col">
+            <i class="fa fa-search"></i>
+        </div> -->
+        <!-- <div class="col-sm-2 col-xs-2"><button class="">Search</button></div> -->
+
+
+
+
+        <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+            <ul fxLayout fxLayoutGap="10px" class="navigation-item">
+                <li>
+                    <button mat-button [mat-menu-trigger-for]="menu" class="user mt-2 d-flex align-items-center">
+                        <img src="../../../assets/icons8-user-16.png" class="user-image mr-1 p-2">
+                        User Name
+                        <mat-icon class="user-image-icon ml-1">keyboard_arrow_down</mat-icon>
+                    </button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item>
+                           <mat-icon>exit_to_app</mat-icon>
+                           Logout
+                       </button>
+                    </mat-menu>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div >
+    <nav class=" navbar-expand-lg navbar-transparent">
+        <div class="row">
+            <ul class="navbar-nav mr-auto col-sm-8 col-xs-8">
+                <li class="nav-item active"> <a class="nav-link" href="#">HOME</a> </li>
+                <li class="nav-item"> <a class="nav-link" routerLink="/Lawyers/dashboard/registration">REGISTRATION</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="Lawyers/about">ABOUT</a> </li>
+                <li class="nav-item"> <a class="nav-link" routerLink="/Lawyers/blog">BLOG</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/Lawyers/criminal-lawyer">Criminal</a> </li>
+            </ul>
+
+            <div class="justify-content-right col-sm-4 col-xs-4">
+                <p><i class="fa fa-phone" style="color: wheat;"></i><a href="#" style="font-size:x-large; color: wheat;">+8009697699</a></p>
+                <p style="color: wheat;">Call for Legal Consultation(INDIA)</p>
+            </div> -->
+        </div>
+        <!-- <div class="justify-content-right">
+            <i class="fa fa-phone" style="color: wheat;"></i>
+        </div> -->
+    </nav>
+</div>
+<!-- <div>
+    <div class="container-fluid px-0">
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-transparent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">MEN</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">WOMEN</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">KIDS</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">BOYS</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">GIRLS</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</div> -->
